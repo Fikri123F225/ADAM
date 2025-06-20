@@ -1,6 +1,7 @@
 "use client";
 
 import { AdminNavbar } from "@/components/common/AdminNavbar";
+import Sidebar from "@/components/common/Sidebar";
 import { user } from "@/helpers/data";
 import React from "react";
 
@@ -11,6 +12,7 @@ const UserLayout = ({ children }: { children: React.ReactNode }) => {
     <div>
       <AdminNavbar user={user} onLogout={() => console.log("logout")} />
       <div>{children}</div>
+      
     </div>
   );
 };

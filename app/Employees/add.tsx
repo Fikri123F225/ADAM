@@ -7,7 +7,7 @@ export default function AddEmployee() {
     lastName: "",
     email: "",
     phone: "",
-    address: "",
+    address:"",
     city: "",
     cin: "",
     isActive: true,
